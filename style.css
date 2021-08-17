@@ -474,7 +474,7 @@ header {
   
 }
 
-.pacman-link {
+.pacman-link1, .pacman-link2 {
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -493,7 +493,11 @@ header {
 }
 
 /* portfolio-item.html */
-.pacman-link:hover {
+ .pacman-link2:hover {
+  transform: scale(1.1);
+}
+
+.pacman-link1:hover {
   transform: scale(1.1);
 }
 
@@ -534,4 +538,63 @@ header {
 
 .logo-img2{
   margin-top: 75px;
+}
+
+.summary-p{
+  font-size: 1.25rem;
+}
+
+/* portfolio-item5 */
+
+.intro__img{
+margin-bottom: 155px;
+}
+
+.pizza{
+margin-top: 75px;
+}
+
+/* portfolio-item6 */
+
+.desert{
+  margin-top: 75px;
+}
+
+
+
+@media (max-width: 600px){
+  .pacman-img{
+    display: none;
+
+  }
+
+  .intro__img pacman-img2{
+    margin-bottom: 0;
+  }
+
+  .footer{
+    margin-top: 150px;
+  }
+
+  .movie-img2{
+    display: none;
+  }
+
+  .loop-img2{
+    display: none;
+  }
+
+  .logo-img2{
+    display: none;
+  }
+
+  .pizza{
+    display: none;
+  }
+
+  .desert{
+    display: none;
+  }
+
+ 
 }
