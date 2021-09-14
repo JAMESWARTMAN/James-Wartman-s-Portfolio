@@ -84,7 +84,7 @@ strong {
   transition: transform 200ms ease-in-out;
 }
 
-.btn-resume{
+.btn-resume {
   margin-left: 25px;
 }
 
@@ -166,6 +166,10 @@ header {
 
   transform: translateX(100%);
   transition: transform 250ms cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.summary-p {
+  font-weight: 500;
 }
 
 .nav__list {
@@ -470,11 +474,11 @@ header {
 
 .portfolio-item-individual p {
   font-size: 28px;
-  max-width: 800px; 
-  
+  max-width: 800px;
 }
 
-.pacman-link1, .pacman-link2 {
+.pacman-link1,
+.pacman-link2 {
   display: block;
   margin: 0 auto;
   padding: 10px;
@@ -493,7 +497,7 @@ header {
 }
 
 /* portfolio-item.html */
- .pacman-link2:hover {
+.pacman-link2:hover {
   transform: scale(1.1);
 }
 
@@ -505,96 +509,90 @@ header {
   margin-top: 75px;
 }
 
-.pacman-img2{
+.pacman-img2 {
   margin-bottom: 125px;
 }
 
 /* portfolio-item.2 */
 
-.movies-img{
+.movies-img {
   margin-bottom: 155px;
 }
 
-.movie-img2{
+.movie-img2 {
   margin-top: 75px;
 }
 
-
 /* portfolio-item3 */
 
-.loop-img{
+.loop-img {
   margin-bottom: 155px;
 }
 
-.loop-img2{
+.loop-img2 {
   margin-top: 75px;
 }
 
 /* portfolio-item4 */
 
-.logo-img{
+.logo-img {
   margin-bottom: 155px;
 }
 
-.logo-img2{
+.logo-img2 {
   margin-top: 75px;
 }
 
-.summary-p{
+.summary-p {
   font-size: 1.25rem;
 }
 
 /* portfolio-item5 */
 
-.intro__img{
-margin-bottom: 155px;
+.intro__img {
+  margin-bottom: 155px;
 }
 
-.pizza{
-margin-top: 75px;
+.pizza {
+  margin-top: 75px;
 }
 
 /* portfolio-item6 */
 
-.desert{
+.desert {
   margin-top: 75px;
 }
 
-
-
-@media (max-width: 600px){
-  .pacman-img{
+@media (max-width: 600px) {
+  .pacman-img {
     display: none;
-
   }
 
-  .intro__img pacman-img2{
+  .intro__img pacman-img2 {
     margin-bottom: 0;
   }
 
-  .footer{
+  .footer {
     margin-top: 150px;
   }
 
-  .movie-img2{
+  .movie-img2 {
     display: none;
   }
 
-  .loop-img2{
+  .loop-img2 {
     display: none;
   }
 
-  .logo-img2{
+  .logo-img2 {
     display: none;
   }
 
-  .pizza{
+  .pizza {
     display: none;
   }
 
-  .desert{
+  .desert {
     display: none;
   }
-
- 
 }
