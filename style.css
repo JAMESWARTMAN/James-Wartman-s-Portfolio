@@ -4,7 +4,9 @@
   box-sizing: border-box;
 }
 
-/* Custom Properties, update these for your own design */
+ html{
+  scroll-behavior: smooth;
+} 
 
 :root {
   --ff-primary: "Source Sans Pro", sans-serif;
@@ -28,7 +30,7 @@
 
 @media (min-width: 800px) {
   :root {
-    --fs-h1: 4.5rem;
+     --fs-h1: 4.5rem; 
     --fs-h2: 3.75rem;
     --fs-h3: 1.5rem;
     --fs-body: 1.125rem;
@@ -689,4 +691,109 @@ header {
   font-weight:500;
   line-height: 60px;
   margin-left: 10px;
+}
+
+/* CONTACT FORM  */
+.contact-us{
+  width: 450px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ECD8E0;
+  padding: 50px;
+    margin: 50px auto;  
+  border-radius: 30px;
+  /* position: relative; */
+}
+
+.contact-form{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.title {
+  color: #16e0bd;
+  /* letter-spacing: 5px; */
+   margin-bottom: 25px; 
+  text-align: center;
+}
+
+ .input{
+  border-left: solid 70px transparent; 
+  border-right: solid 70px transparent; 
+  border-bottom: solid 70px #fff;
+  box-shadow: 0 0 30px #16e0bd;
+}  
+
+/* .form,
+.form-items{
+   width: 100%; 
+}   */
+
+.form-items .input{
+  width: 95%;  
+  margin-bottom: 12px;
+  padding: 15px 40px;
+  box-sizing: border-box;
+  background: #ECD8E0;
+  border: 0px;
+  outline: none;
+  border-radius: 30px;
+}
+
+.form-items .input.message{
+  height: 125px; 
+  border-radius: 15px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  
+}
+
+.btn-form{
+  background: #16e0bd;
+  text-align: center;
+  color: #303030;
+  padding: 12px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+.btn-form .fas{
+  margin-left: 10px;
+  font-size: 12px;
+}
+
+.form-items{
+  position: relative; 
+}
+
+.form-items .fas{
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  color: #16e0bd;
+}
+
+.form-title{
+  font-size: 48px;
+  margin: 0;
+}
+
+::placeholder{
+  font-size: 18px;
+}
+
+@media (max-wdith: 600px) {
+
+
+
+.contact-us{
+  margin-top: 50px;
+}
+
+
+
+
 }

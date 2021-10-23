@@ -38,7 +38,7 @@
                 Hi, I am <strong>James Wartman</strong>
             </h1>
             <p class="section__subtitle section__subtitle--intro">front-end dev</p>
-            <img src="images/james.jpg" alt="a picture of James smiling" class="intro__img">
+            <img src="images\20210929_123440.jpg" alt="a picture of James smiling" class="intro__img">
         </section>
         <!--  -->
         
@@ -62,7 +62,7 @@
                 </div> <!-- / service -->
             </div> <!-- / services -->
             
-            <a href="#work" class="btn">My Work</a> 
+            <a href="#work" class="btn btn-work">My Work</a> 
             <a href="images\JamesWartmansFrontEndDeveloperResume (1).PDF" target="_blank" class="btn btn-resume">Resume</a>
         </section>
         <!--  -->
@@ -77,7 +77,7 @@
                <p class="summary-p">I'm a self-taught web developer who is in love with learning new technologies and have a passion for web development. My main focus has mostly been on front-end web development. Some skills demonstrated in this portfolio include CSS Grid, Flexbox, JavaScript, React and Bootstrap.</p>
            </div>
            
-           <img src="images/james3.jpg" class="about-me__img">
+            <img src="images/james3.jpg" class="about-me__img"> 
            
         </section>
         
@@ -137,9 +137,58 @@
                 
                 
             </div>
+
+             <!-- <form action="https://formsubmit.co/jameswartmanmichael@yahoo.com" method="POST">
+      <input type="email" name="email" placeholder="Email Address" required>
+      <input type="hidden" name="_subject" value="New submission!">
+      <input type="text" name="message" placeholder="Write your message here" required>
+      <input type="hidden" name="_captcha" value="false">
+      <button type="submit">Send</button>
+    </form> -->
             
         </section>
-
+        <form class="contact-form" action="https://formsubmit.co/jameswartmanmichael@yahoo.com" method="POST">
+            <div class="contact-us">
+              <div class="title">
+                <h4 class="form-title">Contact Me</h4>
+              </div>
+              <div class="form">
+                <div class="form-items">
+                  <input type="text" class="input" placeholder="Enter Name" required>
+                  <input type="hidden" name="_subject" value="New submission!">
+        
+                  <i class="fas fa-user"></i>
+                </div>
+                <div class="form-items">
+                  <input type="text" class="input" placeholder="Enter Email" required>
+                  <i class="fas fa-envelope"></i>
+                </div>
+                <div class="form-items">
+                  <textarea class="input message" cols="30" rows="10" placeholder="Leave me a message here" required></textarea>
+                  <input type="hidden" name="_captcha" value="false">
+                </div>
+              </div>
+              
+              <button type="submit" class="btn-form btn">
+                Send
+                <i class="fas fa-arrow-right"></i>
+              </button>
+              
+              
+              <!-- <div class="social-icons">
+                <div class="facebook">
+                  <i class="fab fa-facebook-f"></i>
+                </div>
+                <div class="twitter">
+                  <i class="fab fa-twitter"></i>
+                </div>
+                <div class="google">
+                  <i class="fab fa-google-plus-g"></i>
+                </div>
+              </div> -->
+              
+            </div>
+           </form>
        
         <!-- Footer -->
         <footer class="footer">
@@ -200,7 +249,10 @@
                 
             </div>
 
+            
+            
         </footer>
+        
         <script src="script.js"></script>
     </body>
 </html>
