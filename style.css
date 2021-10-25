@@ -56,8 +56,9 @@ section {
 }
 
 img {
-  display: block;
-  max-width: 100%;
+  display: block; 
+  max-width: 100%; 
+
 }
 
 strong {
@@ -378,6 +379,7 @@ header {
 
 .portfolio__img {
   transition: transform 750ms cubic-bezier(0.5, 0, 0.5, 1), opacity 250ms linear;
+  
 }
 
 .portfolio__item:focus {
@@ -576,9 +578,9 @@ header {
     margin-bottom: 0;
   }
 
-  .footer {
-    margin-top: 150px;
-  }
+  /* .footer {
+     margin-top: 150px;   
+  } */
 
   .movie-img2 {
     display: none;
@@ -800,3 +802,30 @@ header {
 
 }
 
+@media (max-width: 350px ) {
+
+ .btn-resume{
+  margin-top: 10px;
+  
+  margin-left: 5px;
+}
+
+.portfolio__img {
+  max-width: 100%;
+}
+
+.form-title{
+  font-size: 36px;
+}
+
+.footer{
+  width: 100vw;
+  display: block;
+}
+
+.footer__link{
+  
+  font-size: 18px;
+}
+
+}
