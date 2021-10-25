@@ -39,9 +39,7 @@
 
 /* General styles */
 
-html {
-  scroll-behavior: smooth;
-}
+
 
 body {
   background: var(--clr-light);
@@ -50,6 +48,7 @@ body {
   font-family: var(--ff-primary);
   font-size: var(--fs-body);
   line-height: 1.6;
+  
 }
 
 section {
@@ -701,9 +700,9 @@ header {
   justify-content: center;
   background: #ECD8E0;
   padding: 50px;
-    margin: 50px auto;  
+   margin: 50px auto;   
   border-radius: 30px;
-  /* position: relative; */
+   position: relative; 
 }
 
 .contact-form{
@@ -785,15 +784,19 @@ header {
   font-size: 18px;
 }
 
-@media (max-wdith: 600px) {
-
-
+@media (max-width: 600px) {
 
 .contact-us{
-  margin-top: 50px;
+  
+  width: 80%;
+  
 }
 
 
 
 
+
+
+
 }
+

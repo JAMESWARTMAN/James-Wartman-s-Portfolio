@@ -145,26 +145,27 @@
       <input type="hidden" name="_captcha" value="false">
       <button type="submit">Send</button>
     </form> -->
-            
+            <!--  -->
         </section>
         <form class="contact-form" action="https://formsubmit.co/jameswartmanmichael@yahoo.com" method="POST">
             <div class="contact-us">
               <div class="title">
                 <h4 class="form-title">Contact Me</h4>
+
               </div>
               <div class="form">
                 <div class="form-items">
-                  <input type="text" class="input" placeholder="Enter Name" required>
+                  <input name="name" type="text" class="input" placeholder="Enter Name" required>
                   <input type="hidden" name="_subject" value="New submission!">
         
                   <i class="fas fa-user"></i>
                 </div>
                 <div class="form-items">
-                  <input type="text" class="input" placeholder="Enter Email" required>
+                  <input name="email" type="text" class="input" placeholder="Enter Email" required>
                   <i class="fas fa-envelope"></i>
                 </div>
                 <div class="form-items">
-                  <textarea class="input message" cols="30" rows="10" placeholder="Leave me a message here" required></textarea>
+                  <textarea name="textarea" class="input message" cols="30" rows="10" placeholder="Leave me a message here" required></textarea>
                   <input type="hidden" name="_captcha" value="false">
                 </div>
               </div>
