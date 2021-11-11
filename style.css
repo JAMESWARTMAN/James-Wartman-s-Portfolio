@@ -83,16 +83,20 @@ strong {
   text-transform: uppercase;
   letter-spacing: 2px;
   font-weight: var(--fw-bold);
-  transition: transform 200ms ease-in-out;
+  transition: transform 200ms ease-in-out; 
 }
 
 .btn-resume {
   margin-left: 25px;
 }
 
-.btn:hover {
-  transform: scale(1.1);
+.btn-work{
+  margin-right: 30px;
 }
+
+ .btn:hover {
+  transform: scale(1.1);
+} 
 
 /* Typography */
 
@@ -806,8 +810,8 @@ header {
 
  .btn-resume{
   margin-top: 10px;
+  margin-right: 45px;
   
-  margin-left: 5px;
 }
 
 .portfolio__img {
@@ -833,3 +837,110 @@ header {
 .share-1{
   padding-bottom: 50px;
 }
+
+.container-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+
+.container-button a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 2.5em;
+  border: 2px solid #16e0bd;
+  text-transform: uppercase;
+  font-weight: 600;
+  text-decoration: none;
+  letter-spacing: 2px; 
+  color: var(--clr-dark);
+  /* -webkit-box-reflect: below 0px linear-gradient(transparent, #0002);  */
+  transition: 0.5s;
+  transition-delay: 0s;
+
+}
+
+.container-button a:hover {
+transition-delay: 1s;
+color: var(--clr-dark);
+box-shadow: 0 0 10px #16e0bd,
+            0 0 20px #16e0bd,
+            0 0 40px #16e0bd,
+            0 0 80px #16e0bd,
+            0 0 160px #16e0bd;
+}
+
+.container-button a span {
+  position: relative;
+  z-index: 100;
+
+}
+
+ .container-button a:nth-child(2) {
+  filter: hue-rotate(80deg);
+} 
+
+.container-button a::before
+{
+  content: '';
+  position: absolute;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #16e0bd;
+  box-shadow: 5px -8px 0 #16e0bd,
+              5px 8px 0 #16e0bd;
+
+ transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+ transition-delay: 1s,0.5s,0s,0s;        
+
+}
+
+.container-button a:hover::before
+{
+  width: 60%;
+  height: 100%;
+  left: -2px;
+  box-shadow: 5px 0 0 #16e0bd,
+              5px 0 0 #16e0bd;
+  transition-delay: 0s,0s,0.5s,1s; 
+
+
+
+}
+
+.container-button a::after                                  
+{
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 2px;
+  background: #16e0bd;
+  box-shadow: -5px -8px 0 #16e0bd,
+              -5px 8px 0 #16e0bd;
+
+ transition: width 0.5s, left 0.5s, height 0.5s, box-shadow 0.5s;
+ transition-delay: 1s,0.5s,0s,0s;        
+
+}
+
+.container-button a:hover::after
+{
+  width: 60%;
+  height: 100%;
+  right: -2px;
+  box-shadow: -5px 0 0 #16e0bd,
+              -5px 0 0 #16e0bd;
+  transition-delay: 0s,0s,0.5s,1s; 
+
+
+
+}
+
