@@ -434,7 +434,7 @@ header {
 /* footer */
 
 .footer {
-  background: #111;
+  background: var(--clr-dark);
   color: var(--clr-accent);
   text-align: center;
   padding: 2.5em 0;
@@ -704,7 +704,8 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background: #ECD8E0;
+  background: var(--clr-dark);
+  
   padding: 50px;
    margin: 50px auto;   
   border-radius: 30px;
@@ -729,7 +730,7 @@ header {
   border-left: solid 70px transparent; 
   border-right: solid 70px transparent; 
   border-bottom: solid 70px #fff;
-  box-shadow: 0 0 30px #16e0bd;
+  box-shadow: 0 0 10px #16e0bd;
 }  
 
 /* .form,
