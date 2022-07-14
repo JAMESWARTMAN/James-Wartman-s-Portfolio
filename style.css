@@ -486,6 +486,57 @@
                             left: 60px;
                             top: 0px;
                         }
+                        /* LIVE AND LEARN MORE BUTTONS IN MOBILE VIEW */
+                        .pwa1 {
+                            position: relative;
+                            top: 15;
+                            left: 175px;
+                        }
+                        .pwa2 {
+                            position: relative;
+                            top: 0;
+                            left: 2px;
+                        }
+                        .pizza1 {
+                            position: relative;
+                            top: 15;
+                            left: 200px;
+                        }
+                        .pizza2 {
+                            position: relative;
+                            top: 0;
+                            left: 25px;
+                        }
+                        .travel1 {
+                            position: relative;
+                            top: 15;
+                            left: 200px;
+                        }
+                        .travel2 {
+                            position: relative;
+                            top: 0;
+                            left: 25px;
+                        }
+                        .movie1 {
+                            position: relative;
+                            top: 15;
+                            left: 237px;
+                        }
+                        .movie2 {
+                            position: relative;
+                            top: 0;
+                            left: 75px;
+                        }
+                        .pac1 {
+                            position: relative;
+                            top: 15;
+                            left: 200px;
+                        }
+                        .pac2 {
+                            position: relative;
+                            top: 0;
+                            left: 35px;
+                        }
                     }
                     /* MY WORK */
                     
@@ -627,14 +678,32 @@
                     .pac-man-container {
                         display: flex;
                         flex-direction: column;
-                        justify-content: left;
+                        justify-content: center;
+                        text-align: center;
                     }
                     
                     .pacman-title {
                         font-size: 70px;
                         text-align: center;
-                        margin-bottom: 100px;
+                        margin-bottom: 50px;
                         margin-top: 100px;
+                    }
+                    
+                    .pacman-page1 {
+                        position: relative;
+                        top: 50px;
+                        left: 800px;
+                    }
+                    
+                    .pacman-page2 {
+                        position: relative;
+                        top: -20px;
+                        left: 975px;
+                    }
+                    
+                    .pacman-brand {
+                        font-size: 28px;
+                        margin-bottom: 15px;
                     }
                     
                     .pacman-purpose-section {
@@ -642,6 +711,11 @@
                         flex-direction: column;
                         justify-content: center;
                         text-align: center;
+                    }
+                    
+                    .pacman-purpose-title {
+                        font-size: 50px;
+                        margin: 50px 0 50px 0;
                     }
                     
                     .pacman-purpose-description {
@@ -657,6 +731,11 @@
                         flex-direction: column;
                         justify-content: center;
                         text-align: center;
+                    }
+                    
+                    .pacman-lesson-title {
+                        font-size: 50px;
+                        margin: 50px 0 50px 0;
                     }
                     
                     .pacman-lesson-description {
@@ -678,6 +757,7 @@
                     .pacman-img {
                         width: 800px;
                         margin: 0 auto;
+                        box-shadow: 10px 20px 10px #ccc;
                     }
                     /* .pacman-img2 {
                         margin-bottom: 125px;
