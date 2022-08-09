@@ -163,7 +163,9 @@
                 }
                 
                 .summary-p {
+                    font-size: 1.25rem;
                     font-weight: 500;
+                    line-height: 1.6;
                 }
                 
                 .nav__list {
@@ -261,7 +263,7 @@
                 
                 .section__subtitle--intro {
                     display: inline-block;
-                    /* padding-bottom: 2em; */
+                    padding-bottom: 1em;
                 }
                 /*  My services section  */
                 
@@ -583,45 +585,68 @@
                 @media (min-width: 600px) {
                     .about-me {
                         display: grid;
-                        grid-template-columns: 1fr 100px;
+                        grid-template-columns: 1fr 200px;
                         grid-template-areas: "title img" "text img";
                         grid-column-gap: 2em;
                     }
-                    .intro {
+                    /* .intro {
                         display: grid;
-                        width: max-content;
+                        width: min-content;
                         margin: 0 auto;
                         grid-column-gap: 1em;
                         grid-template-areas: "img title" "img subtitle";
                         grid-template-columns: min-content max-content;
+                    } */
+                    .intro {
+                        display: grid;
+                        width: fit-content;
+                        margin: 0 auto;
+                        grid-column-gap: 1em;
+                        grid-template-areas: "img title" "img subtitle";
+                        grid-template-columns: 1fr 350px;
+                        padding-right: 65px;
+                        padding-left: 3em;
                     }
                     .section__title--about {
                         grid-area: title;
                     }
-                    .section__subtitle--about {
-                        grid-column: 1 / -1;
-                        position: relative;
-                        /* left: -1em; */
-                        width: fit-content;
-                        padding-left: 1em;
-                        padding-right: 1em;
-                    }
-                    .section__subtitle--intro {
+                    /* .section__subtitle--intro {
                         align-self: start;
                         grid-column: 1 / 1;
                         grid-row: 2;
                         text-align: left;
                         position: relative;
-                        /* left: -1em; */
-                        width: 500px;
-                        /* padding-left: 1em;
-                        padding-right: 1em; */
+                        left: -2em;
+                        width: 400px;
+                         padding-left: 1em;
+                        padding-right: 1em; 
+                    } */
+                    .section__subtitle--intro {
+                        align-self: start;
+                        grid-column: -1 / 1;
+                        grid-row: 2;
+                        text-align: left;
+                        position: relative;
+                        left: -1.5em;
+                        width: calc(100% + 1.5em);
                     }
-                    /* .about-me__img {
-                            grid-area: img;
-                            position: relative;
-                            z-index: 2;
-                        } */
+                    .section__subtitle--about {
+                        grid-column: 1 / -1;
+                        position: relative;
+                        left: -1em;
+                        width: calc(95% + 1em);
+                        padding-left: 1em;
+                        padding-right: calc(200px + 2em);
+                    }
+                    /* .section__subtitle--about {
+                        grid-column: 1 / -1;
+                        position: relative;
+                        grid-row: -1;
+                        left: -1em;
+                        width: 100%;
+                        padding-left: 1em;
+                        padding-right: 1em;
+                    } */
                 }
                 /* footer */
                 
