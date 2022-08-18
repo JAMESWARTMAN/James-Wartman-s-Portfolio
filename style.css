@@ -424,10 +424,6 @@
                                         /* background: var(--clr-accent); */
                                         overflow: hidden;
                                     }
-                                    /* .section__subtitle--intro {
-                        width: 100%;
-                        max-width: 500px;
-                    } */
                                     .pink {
                                         margin: 0 auto;
                                         width: fit-content;
@@ -751,6 +747,7 @@
                                     flex-direction: column;
                                     justify-content: center;
                                     text-align: center;
+                                    align-content: center;
                                 }
                                 
                                 .pacman-title {
@@ -836,26 +833,36 @@
                                     box-shadow: 10px 20px 10px #ccc;
                                 }
                                 
-                                @media(min-width: 601px) and (max-width: 1200px) {
+                                @media(min-width: 601px) and (max-width: 1300px) {
                                     .button-div {
                                         display: flex;
-                                        justify-content: left;
-                                        align-content: left;
-                                        align-items: left;
-                                        text-align: left;
+                                        justify-content: center;
+                                        align-content: center;
+                                        align-items: center;
+                                        text-align: center;
                                     }
                                     .pacman-page1 {
                                         position: static;
-                                        margin: 50px 40px 0 200px;
+                                        margin: 40px 40px 0 0;
                                     }
                                     .pacman-page2 {
                                         position: static;
-                                        margin: 50px 0 0px 40px;
+                                        margin: 40px 0 0px 10px;
                                     }
                                     .pacman-description {
                                         margin-top: 50px;
                                     }
                                 }
+                                /* @media(min-width: 950px) and (max-width: 1300px) {
+                                    .pacman-page1 {
+                                        position: static;
+                                        margin: 50px 40px 0 400px;
+                                    }
+                                    .pacman-page2 {
+                                        position: static;
+                                        margin: 50px 0 0px 40px;
+                                    }
+                                } */
                                 
                                 @media (max-width: 600px) {
                                     .intro__img pacman-img2 {
